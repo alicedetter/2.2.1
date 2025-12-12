@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <?php if(intval($_POST["age"]) < 18):
+    <?php if(intval($_POST['age']) < 18):
         echo "Hej ", $_POST['name'], "! Du är för ung för att använda den här webbplatsen.";
     else:
         echo "Hej ", $_POST['name'], "! Välkommen till vår webbplats.";
