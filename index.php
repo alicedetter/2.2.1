@@ -7,9 +7,9 @@
 </head>
 <body>
     <form action="message.php" method="POST">
-        <input type="text" name="name" placeholder="Namn">
-        <input type="text" name="age" placeholder="Ålder">
-        <input type="submit" value="Skicka" name="POST_btn">
+        <input type="text" name="name">
+        <input type="text" name="age">
+        <input type="submit" name="submit" value="Skicka">
     </form>
 </body>
 </html>
